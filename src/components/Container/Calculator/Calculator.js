@@ -59,4 +59,19 @@ class Calculator extends Component {
       operator: e ? e.target.innerHTML : ""
     });
   };
+
+  render() {
+    return (
+      <main className="calculator">
+        <Display answer={this.state.display} clear={this.resetCalculator} />
+        <Operators handleClick={this.handleOperatorClicks} />
+        <Numbers
+          handleClick={this.handleNumberClicks}
+          evaluate={this.handleEqualsClick}
+        />
+      </main>
+    );
+  }
 }
+
+export default Calculator;
