@@ -38,6 +38,17 @@ class Calculator extends Component {
     }
   };
 
+  handleOperatorClicks = e => {
+    if (this.state.mode === 1) {
+      this.setState({
+        operator: e.target.innerHTML,
+        mode: 2
+      });
+    } else {
+      this.evaluate(e);
+    }
+  };
+
   handleEqualsClick = () => {
     this.evaluate();
     this.setState({
