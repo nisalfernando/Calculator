@@ -1,0 +1,25 @@
+.display-container {
+  background-color: #b4c5e4;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.display {
+  background-color: white;
+  border-radius: 5px;
+  direction: rtl;
+  flex-grow: 1;
+  font-size: 1.25rem;
+  margin: 0 0.75rem 0 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.clear {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
