@@ -4,5 +4,6 @@
  -> Here I used Reactjs to recreate it.
 
 # Project's Goals
+ -> To create a working calculator.
  -> To improve my coding skill.
  -> To speed up my typing skill.
